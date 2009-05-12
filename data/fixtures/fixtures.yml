@@ -1,0 +1,35 @@
+Marque:
+  Marque_1:
+    nom: Volkswagen
+Modele:
+  Modele_1:
+    nom: 'Polo 4'
+    marque_id: Marque_1
+  Modele_2:
+    nom: 'Golf 5'
+    marque_id: Marque_1
+Proprietaire:
+  Proprietaire_1:
+    nom: Nacef
+    prenom: LABIDI
+    raison_sociale: ''
+    code_tva: ''
+    personne_physique: '1'
+Vehicule:
+  Vehicule_1:
+    immatricule: 883TU105
+    modele_id: Modele_1
+    proprietaire_id: Proprietaire_1
+Employe:
+  Employe_1:
+    nom: Mohamed
+    prenom: Tounsi
+Garage:
+  Garage_1:
+    raison_sociale: 'My garage'
+    adresse: "11, Rue El Hijez\r\nMonplaisir"
+    tel: '20776468'
+    fax: '71847025'
+    email: nacef.l@gmail.com
+    web: www.mygarage.com
+    code_tva: '1232322344334'

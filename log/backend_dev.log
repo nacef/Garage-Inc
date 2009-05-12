@@ -1,0 +1,1002 @@
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:44:37 symfony [info] {sfPatternRouting} Match route "modele" (/modele.:sf_format) for /modele with parameters array (  'module' => 'modele',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:44:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:44:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:44:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:44:37 symfony [info] {modeleActions} Call "modeleActions->executeIndex()"
+May 12 02:44:38 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:44:38 symfony [debug] {sfPropelLogger} 7
+May 12 02:44:38 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `modele`
+May 12 02:44:38 symfony [debug] {sfPropelLogger} 7
+May 12 02:44:38 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/indexSuccess.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_assets.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_flashes.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_header.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:44:38 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:44:38 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque`
+May 12 02:44:38 symfony [debug] {sfPropelLogger} 7
+May 12 02:44:38 symfony [err] {RuntimeException} Class "Marque" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 02:44:38 symfony [err] {RuntimeException} 3
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:45:47 symfony [info] {sfPatternRouting} Match route "modele" (/modele.:sf_format) for /modele with parameters array (  'module' => 'modele',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:45:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:45:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:45:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:45:47 symfony [info] {modeleActions} Call "modeleActions->executeIndex()"
+May 12 02:45:47 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:45:47 symfony [debug] {sfPropelLogger} 7
+May 12 02:45:47 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `modele`
+May 12 02:45:47 symfony [debug] {sfPropelLogger} 7
+May 12 02:45:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/indexSuccess.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_assets.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_flashes.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_header.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:45:47 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque`
+May 12 02:45:47 symfony [debug] {sfPropelLogger} 7
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_batch_actions.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_actions.php"
+May 12 02:45:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_footer.php"
+May 12 02:45:47 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:45:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:45:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:45:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Configuration 2.86 ms (10)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Action "modele/index" 12.70 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} View "Success" for "modele/index" 47.54 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_assets" 1.02 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_flashes" 1.03 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_list_header" 0.90 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_filters" 13.77 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_filters_field" 7.41 ms (2)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_list" 4.29 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_list_batch_actions" 3.55 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_list_actions" 4.36 ms (1)
+May 12 02:45:47 symfony [info] {sfWebDebugLogger} Partial "modele/_list_footer" 3.06 ms (1)
+May 12 02:45:47 symfony [info] {sfWebResponse} Send content (40144 o)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:45:59 symfony [info] {sfPatternRouting} Match route "modele_new" (/modele/new.:sf_format) for /modele/new with parameters array (  'module' => 'modele',  'action' => 'new',  'sf_format' => 'html',)
+May 12 02:45:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:45:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:45:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:45:59 symfony [info] {modeleActions} Call "modeleActions->executeNew()"
+May 12 02:45:59 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/newSuccess.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_assets.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_flashes.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_header.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_fieldset.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_field.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_field.php"
+May 12 02:45:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:45:59 symfony [debug] {sfPropelLogger} 7
+May 12 02:45:59 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque`
+May 12 02:45:59 symfony [debug] {sfPropelLogger} 7
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_actions.php"
+May 12 02:45:59 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_form_footer.php"
+May 12 02:45:59 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:45:59 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:45:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:45:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Configuration 2.84 ms (10)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Action "modele/new" 17.62 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} View "Success" for "modele/new" 63.17 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_assets" 1.43 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_flashes" 1.08 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form_header" 3.16 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form" 40.17 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form_fieldset" 26.68 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form_field" 19.44 ms (2)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form_actions" 5.34 ms (1)
+May 12 02:45:59 symfony [info] {sfWebDebugLogger} Partial "modele/_form_footer" 3.37 ms (1)
+May 12 02:45:59 symfony [info] {sfWebResponse} Send content (38047 o)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:46:02 symfony [info] {sfPatternRouting} Match route "modele" (/modele.:sf_format) for /modele with parameters array (  'module' => 'modele',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:46:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:46:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:46:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:46:02 symfony [info] {modeleActions} Call "modeleActions->executeIndex()"
+May 12 02:46:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:46:02 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:02 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `modele`
+May 12 02:46:02 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/indexSuccess.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_assets.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_flashes.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_header.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_filters_field.php"
+May 12 02:46:02 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque`
+May 12 02:46:02 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_batch_actions.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_actions.php"
+May 12 02:46:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoModele/templates/_list_footer.php"
+May 12 02:46:02 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:46:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Configuration 3.05 ms (10)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Action "modele/index" 12.20 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} View "Success" for "modele/index" 31.95 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_assets" 1.02 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_flashes" 1.11 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_list_header" 0.91 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_filters" 13.40 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_filters_field" 7.22 ms (2)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_list" 1.13 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_list_batch_actions" 1.00 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_list_actions" 1.35 ms (1)
+May 12 02:46:02 symfony [info] {sfWebDebugLogger} Partial "modele/_list_footer" 0.94 ms (1)
+May 12 02:46:02 symfony [info] {sfWebResponse} Send content (40187 o)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:46:07 symfony [info] {sfPatternRouting} Match route "marque" (/marque.:sf_format) for /marque with parameters array (  'module' => 'marque',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:46:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:46:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:46:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:46:07 symfony [info] {marqueActions} Call "marqueActions->executeIndex()"
+May 12 02:46:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:46:07 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:07 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `marque`
+May 12 02:46:07 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:07 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/indexSuccess.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_assets.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_flashes.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_header.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters_field.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_th_tabular.php"
+May 12 02:46:07 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:07 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:07 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:07 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:07 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque` LIMIT 20
+May 12 02:46:07 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_batch_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_actions.php"
+May 12 02:46:07 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_footer.php"
+May 12 02:46:07 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:07 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:46:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Configuration 91.38 ms (11)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Action "marque/index" 9.52 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} View "Success" for "marque/index" 136.16 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_assets" 3.34 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_flashes" 4.11 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_header" 3.96 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_filters" 15.00 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_filters_field" 6.18 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list" 65.88 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_th_tabular" 7.92 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_batch_actions" 7.38 ms (4)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_tabular" 18.55 ms (4)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_actions" 16.52 ms (4)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_batch_actions" 4.01 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_actions" 4.87 ms (1)
+May 12 02:46:07 symfony [info] {sfWebDebugLogger} Partial "marque/_list_footer" 3.65 ms (1)
+May 12 02:46:07 symfony [info] {sfWebResponse} Send content (51306 o)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:46:24 symfony [info] {sfPatternRouting} Match route "marque" (/marque.:sf_format) for /marque with parameters array (  'module' => 'marque',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:46:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:46:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:46:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:46:24 symfony [info] {marqueActions} Call "marqueActions->executeIndex()"
+May 12 02:46:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:46:24 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:24 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `marque`
+May 12 02:46:24 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:24 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/indexSuccess.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_assets.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_flashes.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_header.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters_field.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_th_tabular.php"
+May 12 02:46:24 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:24 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:24 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:24 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:24 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque` LIMIT 20
+May 12 02:46:24 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_batch_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_actions.php"
+May 12 02:46:24 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_footer.php"
+May 12 02:46:24 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:24 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:46:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Configuration 2.95 ms (10)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Action "marque/index" 11.41 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} View "Success" for "marque/index" 63.04 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_assets" 1.00 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_flashes" 1.00 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_header" 0.91 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_filters" 7.08 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_filters_field" 2.28 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list" 38.26 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_th_tabular" 3.33 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_batch_actions" 4.39 ms (4)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_tabular" 6.19 ms (4)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_actions" 12.83 ms (4)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_batch_actions" 1.09 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_actions" 1.35 ms (1)
+May 12 02:46:24 symfony [info] {sfWebDebugLogger} Partial "marque/_list_footer" 0.97 ms (1)
+May 12 02:46:24 symfony [info] {sfWebResponse} Send content (50777 o)
+May 12 02:46:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 02:46:27 symfony [info] {sfPatternRouting} Match route "marque" (/marque.:sf_format) for /marque with parameters array (  'module' => 'marque',  'action' => 'index',  'sf_format' => 'html',)
+May 12 02:46:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 02:46:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 02:46:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 02:46:27 symfony [info] {marqueActions} Call "marqueActions->executeIndex()"
+May 12 02:46:27 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 02:46:27 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:27 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `marque`
+May 12 02:46:27 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:27 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/indexSuccess.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_assets.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_flashes.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_header.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_filters_field.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_th_tabular.php"
+May 12 02:46:27 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:27 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:27 symfony [info] {main} Set slot "sf_admin.current_header"
+May 12 02:46:27 symfony [info] {main} Get slot "sf_admin.current_header"
+May 12 02:46:27 symfony [debug] {sfPropelLogger} prepare: SELECT marque.ID, marque.NOM FROM `marque` LIMIT 20
+May 12 02:46:27 symfony [debug] {sfPropelLogger} 7
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_batch_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_tabular.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_td_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_batch_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_actions.php"
+May 12 02:46:27 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoMarque/templates/_list_footer.php"
+May 12 02:46:27 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:27 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 02:46:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 02:46:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Configuration 2.84 ms (10)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Action "marque/index" 11.10 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} View "Success" for "marque/index" 62.24 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_assets" 0.98 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_flashes" 1.01 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_header" 0.98 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_filters" 7.03 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_filters_field" 2.24 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list" 37.63 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_th_tabular" 3.03 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_batch_actions" 4.38 ms (4)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_tabular" 6.17 ms (4)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_td_actions" 12.83 ms (4)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_batch_actions" 1.07 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_actions" 1.35 ms (1)
+May 12 02:46:27 symfony [info] {sfWebDebugLogger} Partial "marque/_list_footer" 0.95 ms (1)
+May 12 02:46:27 symfony [info] {sfWebResponse} Send content (51132 o)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:25 symfony [info] {sfPatternRouting} Match route "employe" (/employe.:sf_format) for /employe with parameters array (  'module' => 'employe',  'action' => 'index',  'sf_format' => 'html',)
+May 12 04:08:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:25 symfony [info] {employeActions} Call "employeActions->executeIndex()"
+May 12 04:08:25 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:08:25 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:25 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `employe`
+May 12 04:08:25 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:25 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/indexSuccess.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_assets.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_flashes.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_list_header.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_filters.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_filters_field.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_filters_field.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_list.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_list_batch_actions.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_list_actions.php"
+May 12 04:08:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_list_footer.php"
+May 12 04:08:25 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:25 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Configuration 956.67 ms (10)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Action "employe/index" 31.71 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} View "Success" for "employe/index" 165.12 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_assets" 3.71 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_flashes" 19.95 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_list_header" 10.46 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_filters" 18.89 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_filters_field" 8.45 ms (2)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_list" 4.92 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_list_batch_actions" 22.41 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_list_actions" 4.87 ms (1)
+May 12 04:08:25 symfony [info] {sfWebDebugLogger} Partial "employe/_list_footer" 3.88 ms (1)
+May 12 04:08:25 symfony [info] {sfWebResponse} Send content (49124 o)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:28 symfony [info] {sfPatternRouting} Match route "employe_new" (/employe/new.:sf_format) for /employe/new with parameters array (  'module' => 'employe',  'action' => 'new',  'sf_format' => 'html',)
+May 12 04:08:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:28 symfony [info] {employeActions} Call "employeActions->executeNew()"
+May 12 04:08:28 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/newSuccess.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_assets.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_flashes.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_header.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_fieldset.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_field.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_field.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_actions.php"
+May 12 04:08:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_footer.php"
+May 12 04:08:28 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:28 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Configuration 2.99 ms (10)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Action "employe/new" 22.70 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} View "Success" for "employe/new" 57.40 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_assets" 1.47 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_flashes" 1.09 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form_header" 3.24 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form" 28.75 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form_fieldset" 15.35 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form_field" 8.28 ms (2)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form_actions" 5.41 ms (1)
+May 12 04:08:28 symfony [info] {sfWebDebugLogger} Partial "employe/_form_footer" 3.70 ms (1)
+May 12 04:08:28 symfony [info] {sfWebResponse} Send content (46394 o)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Match route "employe_create" (/employe.:sf_format) for /employe with parameters array (  'module' => 'employe',  'action' => 'create',  'sf_format' => 'html',)
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:39 symfony [info] {employeActions} Call "employeActions->executeCreate()"
+May 12 04:08:39 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} prepare: INSERT INTO employe (`ID`,`NOM`,`PRENOM`) VALUES (:p1,:p2,:p3)
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} Binding 'Mohamed' at position :p2 w/ PDO type PDO::PARAM_STR
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} Binding 'Tounsi' at position :p3 w/ PDO type PDO::PARAM_STR
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [info] {sfFrontWebController} Redirect to "http://garage.inc/backend_dev.php/employe/1/edit"
+May 12 04:08:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 12 04:08:39 symfony [info] {sfWebResponse} Send header "Location: http://garage.inc/backend_dev.php/employe/1/edit"
+May 12 04:08:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Configuration 2.55 ms (9)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Action "employe/create" 51.59 ms (1)
+May 12 04:08:39 symfony [info] {sfWebResponse} Send content (35936 o)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:39 symfony [info] {sfPatternRouting} Match route "employe_edit" (/employe/:id/edit.:sf_format) for /employe/1/edit with parameters array (  'module' => 'employe',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+May 12 04:08:39 symfony [info] {myUser} Flag old flash messages ("notice")
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:39 symfony [info] {employeActions} Call "employeActions->executeEdit()"
+May 12 04:08:39 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe` WHERE employe.ID=:p1 LIMIT 1
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 04:08:39 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:39 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/editSuccess.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_assets.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_flashes.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_header.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_fieldset.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_field.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_field.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_actions.php"
+May 12 04:08:39 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoEmploye/templates/_form_footer.php"
+May 12 04:08:39 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:39 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Configuration 3.08 ms (10)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Action "employe/edit" 19.77 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} View "Success" for "employe/edit" 39.95 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_assets" 1.58 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_flashes" 1.21 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form_header" 1.03 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form" 14.60 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form_fieldset" 6.87 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form_field" 3.69 ms (2)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form_actions" 3.13 ms (1)
+May 12 04:08:39 symfony [info] {sfWebDebugLogger} Partial "employe/_form_footer" 1.10 ms (1)
+May 12 04:08:39 symfony [info] {sfWebResponse} Send content (48438 o)
+May 12 04:08:39 symfony [info] {myUser} Remove old flash messages ("notice")
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:46 symfony [info] {sfPatternRouting} Match route "type_operation" (/type_operation.:sf_format) for /type_operation with parameters array (  'module' => 'type_operation',  'action' => 'index',  'sf_format' => 'html',)
+May 12 04:08:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:47 symfony [info] {type_operationActions} Call "type_operationActions->executeIndex()"
+May 12 04:08:47 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:08:47 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:47 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `type_operation`
+May 12 04:08:47 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/indexSuccess.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_assets.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_flashes.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_list_header.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_filters.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_filters_field.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_list.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_list_batch_actions.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_list_actions.php"
+May 12 04:08:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_list_footer.php"
+May 12 04:08:47 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Configuration 106.38 ms (11)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Action "type_operation/index" 27.52 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} View "Success" for "type_operation/index" 90.54 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_assets" 3.91 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_flashes" 3.66 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_list_header" 4.07 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_filters" 15.46 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_filters_field" 6.28 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_list" 4.52 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_list_batch_actions" 9.16 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_list_actions" 4.86 ms (1)
+May 12 04:08:47 symfony [info] {sfWebDebugLogger} Partial "type_operation/_list_footer" 3.88 ms (1)
+May 12 04:08:47 symfony [info] {sfWebResponse} Send content (48930 o)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:49 symfony [info] {sfPatternRouting} Match route "type_operation_new" (/type_operation/new.:sf_format) for /type_operation/new with parameters array (  'module' => 'type_operation',  'action' => 'new',  'sf_format' => 'html',)
+May 12 04:08:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:49 symfony [info] {type_operationActions} Call "type_operationActions->executeNew()"
+May 12 04:08:49 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/newSuccess.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_assets.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_flashes.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form_header.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form_fieldset.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form_field.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form_actions.php"
+May 12 04:08:49 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/cache/backend/dev/modules/autoType_operation/templates/_form_footer.php"
+May 12 04:08:49 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:49 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:08:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Configuration 2.91 ms (10)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Action "type_operation/new" 12.08 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} View "Success" for "type_operation/new" 58.51 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_assets" 1.46 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_flashes" 1.16 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form_header" 3.28 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form" 29.58 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form_fieldset" 15.67 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form_field" 9.59 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form_actions" 5.83 ms (1)
+May 12 04:08:49 symfony [info] {sfWebDebugLogger} Partial "type_operation/_form_footer" 3.71 ms (1)
+May 12 04:08:49 symfony [info] {sfWebResponse} Send content (46384 o)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation" (/type_operation.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_new" (/type_operation/new.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_create" (/type_operation.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_edit" (/type_operation/:id/edit.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_update" (/type_operation/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_delete" (/type_operation/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_show" (/type_operation/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_object" (/type_operation/:id/:action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "type_operation_collection" (/type_operation/:action/action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe" (/employe.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_new" (/employe/new.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_create" (/employe.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_edit" (/employe/:id/edit.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_update" (/employe/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_delete" (/employe/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_show" (/employe/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_object" (/employe/:id/:action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "employe_collection" (/employe/:action/action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage" (/garage.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_new" (/garage/new.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_create" (/garage.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_edit" (/garage/:id/edit.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_update" (/garage/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_delete" (/garage/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_show" (/garage/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_object" (/garage/:id/:action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "garage_collection" (/garage/:action/action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele" (/modele.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_new" (/modele/new.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_create" (/modele.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_edit" (/modele/:id/edit.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_update" (/modele/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_delete" (/modele/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_show" (/modele/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_object" (/modele/:id/:action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "modele_collection" (/modele/:action/action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque" (/marque.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_new" (/marque/new.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_create" (/marque.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_edit" (/marque/:id/edit.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_update" (/marque/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_delete" (/marque/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_show" (/marque/:id.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_object" (/marque/:id/:action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "marque_collection" (/marque/:action/action.:sf_format)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:11:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+May 12 04:11:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:11:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:11:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:11:36 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+May 12 04:11:36 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/modules/main/templates/indexSuccess.php"
+May 12 04:11:36 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:11:36 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/backend/templates/layout.php"
+May 12 04:11:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:11:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:11:36 symfony [info] {sfWebDebugLogger} Configuration 207.34 ms (9)
+May 12 04:11:36 symfony [info] {sfWebDebugLogger} Action "main/index" 0.36 ms (1)
+May 12 04:11:36 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 32.05 ms (1)
+May 12 04:11:37 symfony [info] {sfWebResponse} Send content (39833 o)

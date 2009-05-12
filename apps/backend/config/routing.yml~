@@ -1,0 +1,56 @@
+type_operation:
+  class: sfPropelRouteCollection
+  options:
+    model:               TypeOperation
+    module:              type_operation
+    prefix_path:         type_operation
+    column:              id
+    with_wildcard_routes: true
+
+employe:
+  class: sfPropelRouteCollection
+  options:
+    model:               Employe
+    module:              employe
+    prefix_path:         employe
+    column:              id
+    with_wildcard_routes: true
+
+garage:
+  class: sfPropelRouteCollection
+  options:
+    model:               Garage
+    module:              garage
+    prefix_path:         garage
+    column:              id
+    with_wildcard_routes: true
+
+modele:
+  class: sfPropelRouteCollection
+  options:
+    model:               Modele
+    module:              modele
+    prefix_path:         modele
+    column:              id
+    with_wildcard_routes: true
+
+marque:
+  class: sfPropelRouteCollection
+  options:
+    model:               Marque
+    module:              marque
+    prefix_path:         marque
+    column:              id
+    with_wildcard_routes: true
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

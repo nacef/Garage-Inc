@@ -1,0 +1,45 @@
+propel:
+  garage:
+    id:
+    raison_sociale: varchar(255)
+    adresse: longvarchar
+    tel: varchar(50)
+    fax: varchar(50)
+    email: varchar(50)
+    web: varchar(255)
+    code_tva: varchar(50)
+
+  vehicule:
+    id:
+    immatricule: varchar(50)
+    modele_id:
+    proprietaire_id:
+
+  marque:
+    id:
+    nom: varchar(50)
+
+  modele:
+    id:
+    nom: varchar(50)
+    marque_id:
+
+  proprietaire:
+    nom: varchar(50)
+    prenom: varchar(50)
+    raison_sociale: varchar(255)
+    code_tva: varchar(50)
+    personne_physique: boolean
+
+  intervention:
+    id:
+    vehicule_id:
+    type_operation: longvarchar
+    date_intervention: date
+    employe_id:
+
+  employe:
+    id:
+    nom: varchar(50)
+    prenom: varchar(50)
+

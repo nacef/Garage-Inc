@@ -1,0 +1,664 @@
+May 12 03:04:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:04:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:04:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:04:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vehicule with parameters array (  'module' => 'vehicule',  'action' => 'index',)
+May 12 03:04:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:04:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:04:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:04:24 symfony [info] {vehiculeActions} Call "vehiculeActions->executeIndex()"
+May 12 03:04:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:04:24 symfony [debug] {sfPropelLogger} 7
+May 12 03:04:24 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 03:04:24 symfony [debug] {sfPropelLogger} 7
+May 12 03:04:24 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/indexSuccess.php"
+May 12 03:04:24 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:04:24 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:04:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:04:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:04:24 symfony [info] {sfWebDebugLogger} Configuration 197.66 ms (9)
+May 12 03:04:24 symfony [info] {sfWebDebugLogger} Action "vehicule/index" 6.41 ms (1)
+May 12 03:04:24 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/index" 14.47 ms (1)
+May 12 03:04:24 symfony [info] {sfWebResponse} Send content (25728 o)
+May 12 03:04:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:04:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:04:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:04:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/new with parameters array (  'module' => 'vehicule',  'action' => 'new',)
+May 12 03:04:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:04:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:04:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:04:28 symfony [info] {vehiculeActions} Call "vehiculeActions->executeNew()"
+May 12 03:04:28 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/newSuccess.php"
+May 12 03:04:28 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:04:28 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:04:28 symfony [debug] {sfPropelLogger} 7
+May 12 03:04:28 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:04:28 symfony [debug] {sfPropelLogger} 7
+May 12 03:04:28 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.ID FROM `proprietaire`
+May 12 03:04:28 symfony [debug] {sfPropelLogger} 7
+May 12 03:04:28 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:04:28 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:04:28 symfony [err] {RuntimeException} Class "Modele" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 03:04:28 symfony [err] {RuntimeException} 3
+May 12 03:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:05:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/new with parameters array (  'module' => 'vehicule',  'action' => 'new',)
+May 12 03:05:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:05:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:05:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:05:02 symfony [info] {vehiculeActions} Call "vehiculeActions->executeNew()"
+May 12 03:05:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/newSuccess.php"
+May 12 03:05:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:05:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:05:02 symfony [debug] {sfPropelLogger} 7
+May 12 03:05:02 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:05:02 symfony [debug] {sfPropelLogger} 7
+May 12 03:05:02 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.ID FROM `proprietaire`
+May 12 03:05:02 symfony [debug] {sfPropelLogger} 7
+May 12 03:05:02 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:05:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:05:02 symfony [err] {RuntimeException} Class "Proprietaire" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 03:05:02 symfony [err] {RuntimeException} 3
+May 12 03:16:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:16:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:16:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:16:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/new with parameters array (  'module' => 'vehicule',  'action' => 'new',)
+May 12 03:16:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:16:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:16:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:16:43 symfony [info] {vehiculeActions} Call "vehiculeActions->executeNew()"
+May 12 03:16:43 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/newSuccess.php"
+May 12 03:16:43 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:16:43 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:16:43 symfony [debug] {sfPropelLogger} 7
+May 12 03:16:43 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:16:43 symfony [debug] {sfPropelLogger} 7
+May 12 03:16:43 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:16:43 symfony [debug] {sfPropelLogger} 7
+May 12 03:16:43 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:16:43 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:16:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:16:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:16:43 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+May 12 03:16:43 symfony [info] {sfWebDebugLogger} Action "vehicule/new" 45.17 ms (1)
+May 12 03:16:43 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/new" 77.53 ms (1)
+May 12 03:16:43 symfony [info] {sfWebDebugLogger} Partial "vehicule/_form" 70.29 ms (1)
+May 12 03:16:43 symfony [info] {sfWebResponse} Send content (27648 o)
+May 12 03:17:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:17:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:17:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:17:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/new with parameters array (  'module' => 'vehicule',  'action' => 'new',)
+May 12 03:17:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:17:45 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:17:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:17:45 symfony [info] {vehiculeActions} Call "vehiculeActions->executeNew()"
+May 12 03:17:45 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/newSuccess.php"
+May 12 03:17:45 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:17:45 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:17:45 symfony [debug] {sfPropelLogger} 7
+May 12 03:17:45 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:17:45 symfony [debug] {sfPropelLogger} 7
+May 12 03:17:45 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:17:45 symfony [debug] {sfPropelLogger} 7
+May 12 03:17:45 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:17:45 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:17:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:17:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:17:45 symfony [info] {sfWebDebugLogger} Configuration 2.55 ms (9)
+May 12 03:17:45 symfony [info] {sfWebDebugLogger} Action "vehicule/new" 6.23 ms (1)
+May 12 03:17:45 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/new" 20.53 ms (1)
+May 12 03:17:45 symfony [info] {sfWebDebugLogger} Partial "vehicule/_form" 14.30 ms (1)
+May 12 03:17:45 symfony [info] {sfWebResponse} Send content (27609 o)
+May 12 03:18:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:18:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:18:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:18:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proprietaire with parameters array (  'module' => 'proprietaire',  'action' => 'index',)
+May 12 03:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:18:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:18:58 symfony [info] {proprietaireActions} Call "proprietaireActions->executeIndex()"
+May 12 03:18:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:18:58 symfony [debug] {sfPropelLogger} 7
+May 12 03:18:58 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:18:58 symfony [debug] {sfPropelLogger} 7
+May 12 03:18:58 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/indexSuccess.php"
+May 12 03:18:58 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:18:58 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:18:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:18:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:18:58 symfony [info] {sfWebDebugLogger} Configuration 20.45 ms (10)
+May 12 03:18:58 symfony [info] {sfWebDebugLogger} Action "proprietaire/index" 6.18 ms (1)
+May 12 03:18:58 symfony [info] {sfWebDebugLogger} View "Success" for "proprietaire/index" 18.34 ms (1)
+May 12 03:18:58 symfony [info] {sfWebResponse} Send content (25885 o)
+May 12 03:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:19:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /proprietaire/new with parameters array (  'module' => 'proprietaire',  'action' => 'new',)
+May 12 03:19:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:19:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:19:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:19:02 symfony [info] {proprietaireActions} Call "proprietaireActions->executeNew()"
+May 12 03:19:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/newSuccess.php"
+May 12 03:19:02 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/_form.php"
+May 12 03:19:02 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:19:02 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:19:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:19:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:19:02 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+May 12 03:19:02 symfony [info] {sfWebDebugLogger} Action "proprietaire/new" 33.44 ms (1)
+May 12 03:19:02 symfony [info] {sfWebDebugLogger} View "Success" for "proprietaire/new" 35.89 ms (1)
+May 12 03:19:02 symfony [info] {sfWebDebugLogger} Partial "proprietaire/_form" 25.80 ms (1)
+May 12 03:19:02 symfony [info] {sfWebResponse} Send content (27089 o)
+May 12 03:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /proprietaire/new with parameters array (  'module' => 'proprietaire',  'action' => 'new',)
+May 12 03:20:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:23 symfony [info] {proprietaireActions} Call "proprietaireActions->executeNew()"
+May 12 03:20:23 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/newSuccess.php"
+May 12 03:20:23 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/_form.php"
+May 12 03:20:23 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:23 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:20:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:23 symfony [info] {sfWebDebugLogger} Configuration 203.42 ms (9)
+May 12 03:20:23 symfony [info] {sfWebDebugLogger} Action "proprietaire/new" 7.59 ms (1)
+May 12 03:20:23 symfony [info] {sfWebDebugLogger} View "Success" for "proprietaire/new" 26.92 ms (1)
+May 12 03:20:23 symfony [info] {sfWebDebugLogger} Partial "proprietaire/_form" 9.87 ms (1)
+May 12 03:20:23 symfony [info] {sfWebResponse} Send content (27268 o)
+May 12 03:20:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /proprietaire/create with parameters array (  'module' => 'proprietaire',  'action' => 'create',)
+May 12 03:20:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:46 symfony [info] {proprietaireActions} Call "proprietaireActions->executeCreate()"
+May 12 03:20:46 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} prepare: INSERT INTO proprietaire (`NOM`,`PRENOM`,`RAISON_SOCIALE`,`CODE_TVA`,`PERSONNE_PHYSIQUE`,`ID`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6)
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding 'Nacef' at position :p1 w/ PDO type PDO::PARAM_STR
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding 'LABIDI' at position :p2 w/ PDO type PDO::PARAM_STR
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding '' at position :p3 w/ PDO type PDO::PARAM_STR
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding '' at position :p4 w/ PDO type PDO::PARAM_STR
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:46 symfony [debug] {sfPropelLogger} Binding NULL at position :p6 w/ PDO type PDO::PARAM_NULL
+May 12 03:20:46 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:47 symfony [info] {sfFrontWebController} Redirect to "http://garage.inc/frontend_dev.php/proprietaire/edit/id/1"
+May 12 03:20:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 12 03:20:47 symfony [info] {sfWebResponse} Send header "Location: http://garage.inc/frontend_dev.php/proprietaire/edit/id/1"
+May 12 03:20:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (8)
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} Action "proprietaire/create" 36.14 ms (1)
+May 12 03:20:47 symfony [info] {sfWebResponse} Send content (21472 o)
+May 12 03:20:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /proprietaire/edit/id/1 with parameters array (  'id' => '1',  'module' => 'proprietaire',  'action' => 'edit',)
+May 12 03:20:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:47 symfony [info] {proprietaireActions} Call "proprietaireActions->executeEdit()"
+May 12 03:20:47 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:20:47 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:47 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire` WHERE proprietaire.ID=:p1
+May 12 03:20:47 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:47 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 03:20:47 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/editSuccess.php"
+May 12 03:20:47 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/_form.php"
+May 12 03:20:47 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:47 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:20:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} Action "proprietaire/edit" 13.34 ms (1)
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} View "Success" for "proprietaire/edit" 17.37 ms (1)
+May 12 03:20:47 symfony [info] {sfWebDebugLogger} Partial "proprietaire/_form" 8.20 ms (1)
+May 12 03:20:47 symfony [info] {sfWebResponse} Send content (28948 o)
+May 12 03:20:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /proprietaire with parameters array (  'module' => 'proprietaire',  'action' => 'index',)
+May 12 03:20:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:49 symfony [info] {proprietaireActions} Call "proprietaireActions->executeIndex()"
+May 12 03:20:49 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:20:49 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:49 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:20:49 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:49 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/proprietaire/templates/indexSuccess.php"
+May 12 03:20:49 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:49 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:20:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:49 symfony [info] {sfWebDebugLogger} Configuration 2.59 ms (9)
+May 12 03:20:49 symfony [info] {sfWebDebugLogger} Action "proprietaire/index" 6.49 ms (1)
+May 12 03:20:49 symfony [info] {sfWebDebugLogger} View "Success" for "proprietaire/index" 10.72 ms (1)
+May 12 03:20:49 symfony [info] {sfWebResponse} Send content (26188 o)
+May 12 03:20:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vehicule with parameters array (  'module' => 'vehicule',  'action' => 'index',)
+May 12 03:20:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:55 symfony [info] {vehiculeActions} Call "vehiculeActions->executeIndex()"
+May 12 03:20:55 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:20:55 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:55 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 03:20:55 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:55 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/indexSuccess.php"
+May 12 03:20:55 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:55 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:20:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:55 symfony [info] {sfWebDebugLogger} Configuration 19.27 ms (10)
+May 12 03:20:55 symfony [info] {sfWebDebugLogger} Action "vehicule/index" 6.54 ms (1)
+May 12 03:20:55 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/index" 14.31 ms (1)
+May 12 03:20:55 symfony [info] {sfWebResponse} Send content (25727 o)
+May 12 03:20:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:20:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:20:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:20:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/new with parameters array (  'module' => 'vehicule',  'action' => 'new',)
+May 12 03:20:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:20:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:20:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:20:58 symfony [info] {vehiculeActions} Call "vehiculeActions->executeNew()"
+May 12 03:20:58 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/newSuccess.php"
+May 12 03:20:58 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:20:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:20:58 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:58 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:20:58 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:58 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:20:58 symfony [debug] {sfPropelLogger} 7
+May 12 03:20:58 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:58 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:20:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:20:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:20:58 symfony [info] {sfWebDebugLogger} Configuration 2.52 ms (9)
+May 12 03:20:58 symfony [info] {sfWebDebugLogger} Action "vehicule/new" 6.21 ms (1)
+May 12 03:20:58 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/new" 21.38 ms (1)
+May 12 03:20:58 symfony [info] {sfWebDebugLogger} Partial "vehicule/_form" 14.99 ms (1)
+May 12 03:20:58 symfony [info] {sfWebResponse} Send content (27721 o)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/create with parameters array (  'module' => 'vehicule',  'action' => 'create',)
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:21:17 symfony [info] {vehiculeActions} Call "vehiculeActions->executeCreate()"
+May 12 03:21:17 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele` WHERE modele.ID=:p1 LIMIT 1
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire` WHERE proprietaire.ID=:p1 LIMIT 1
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: INSERT INTO vehicule (`ID`,`IMMATRICULE`,`MODELE_ID`,`PROPRIETAIRE_ID`) VALUES (:p1,:p2,:p3,:p4)
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding '883TU105' at position :p2 w/ PDO type PDO::PARAM_STR
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding 1 at position :p3 w/ PDO type PDO::PARAM_INT
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding 1 at position :p4 w/ PDO type PDO::PARAM_INT
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [info] {sfFrontWebController} Redirect to "http://garage.inc/frontend_dev.php/vehicule/edit/id/1"
+May 12 03:21:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 12 03:21:17 symfony [info] {sfWebResponse} Send header "Location: http://garage.inc/frontend_dev.php/vehicule/edit/id/1"
+May 12 03:21:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} Configuration 2.21 ms (8)
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} Action "vehicule/create" 29.42 ms (1)
+May 12 03:21:17 symfony [info] {sfWebResponse} Send content (21576 o)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:21:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vehicule/edit/id/1 with parameters array (  'id' => '1',  'module' => 'vehicule',  'action' => 'edit',)
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:21:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:21:17 symfony [info] {vehiculeActions} Call "vehiculeActions->executeEdit()"
+May 12 03:21:17 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule` WHERE vehicule.ID=:p1
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/editSuccess.php"
+May 12 03:21:17 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/_form.php"
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: SELECT modele.ID, modele.NOM, modele.MARQUE_ID FROM `modele`
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [debug] {sfPropelLogger} prepare: SELECT proprietaire.NOM, proprietaire.PRENOM, proprietaire.RAISON_SOCIALE, proprietaire.CODE_TVA, proprietaire.PERSONNE_PHYSIQUE, proprietaire.ID FROM `proprietaire`
+May 12 03:21:17 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:17 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:21:17 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:21:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:21:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} Configuration 2.52 ms (9)
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} Action "vehicule/edit" 12.73 ms (1)
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/edit" 23.64 ms (1)
+May 12 03:21:17 symfony [info] {sfWebDebugLogger} Partial "vehicule/_form" 14.60 ms (1)
+May 12 03:21:17 symfony [info] {sfWebResponse} Send content (28701 o)
+May 12 03:21:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 03:21:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 03:21:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 03:21:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vehicule with parameters array (  'module' => 'vehicule',  'action' => 'index',)
+May 12 03:21:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 03:21:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 03:21:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 03:21:20 symfony [info] {vehiculeActions} Call "vehiculeActions->executeIndex()"
+May 12 03:21:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 03:21:20 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:20 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 03:21:20 symfony [debug] {sfPropelLogger} 7
+May 12 03:21:20 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/vehicule/templates/indexSuccess.php"
+May 12 03:21:20 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:21:20 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 03:21:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 03:21:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 03:21:20 symfony [info] {sfWebDebugLogger} Configuration 2.55 ms (9)
+May 12 03:21:20 symfony [info] {sfWebDebugLogger} Action "vehicule/index" 6.15 ms (1)
+May 12 03:21:20 symfony [info] {sfWebDebugLogger} View "Success" for "vehicule/index" 6.81 ms (1)
+May 12 03:21:20 symfony [info] {sfWebResponse} Send content (25955 o)
+May 12 04:03:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:03:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:03:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:03:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /intervention with parameters array (  'module' => 'intervention',  'action' => 'index',)
+May 12 04:03:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:03:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:03:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:03:03 symfony [info] {interventionActions} Call "interventionActions->executeIndex()"
+May 12 04:03:03 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:03:03 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:03 symfony [debug] {sfPropelLogger} prepare: SELECT intervention.ID, intervention.VEHICULE_ID, intervention.TYPE_OPERATION_ID, intervention.DATE_INTERVENTION, intervention.EMPLOYE_ID FROM `intervention`
+May 12 04:03:03 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:03 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/indexSuccess.php"
+May 12 04:03:03 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:03:03 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:03:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:03:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:03:03 symfony [info] {sfWebDebugLogger} Configuration 24.58 ms (10)
+May 12 04:03:03 symfony [info] {sfWebDebugLogger} Action "intervention/index" 16.07 ms (1)
+May 12 04:03:03 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/index" 50.59 ms (1)
+May 12 04:03:03 symfony [info] {sfWebResponse} Send content (25273 o)
+May 12 04:03:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:03:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:03:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:03:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:03:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:03:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:03:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:03:05 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:03:05 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:03:05 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:03:05 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:03:05 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:05 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:03:05 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:05 symfony [debug] {sfPropelLogger} prepare: SELECT type_operation.ID, type_operation.DESIGNATION FROM `type_operation`
+May 12 04:03:05 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:05 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:03:05 symfony [debug] {sfPropelLogger} 7
+May 12 04:03:05 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:03:05 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:03:05 symfony [err] {RuntimeException} Class "Vehicule" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 04:03:05 symfony [err] {RuntimeException} 3
+May 12 04:05:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:05:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:05:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:05:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:05:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:05:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:05:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:05:15 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:05:15 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:05:15 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:05:15 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:05:15 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:15 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:05:15 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:15 symfony [debug] {sfPropelLogger} prepare: SELECT type_operation.ID, type_operation.DESIGNATION FROM `type_operation`
+May 12 04:05:15 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:15 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:05:15 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:15 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:05:15 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:05:15 symfony [err] {sfException} Call to undefined method BaseVehicule::getImmatriculation
+May 12 04:05:15 symfony [err] {sfException} 3
+May 12 04:05:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:05:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:05:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:05:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:05:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:05:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:05:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:05:25 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:05:25 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:05:25 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:05:26 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:05:26 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:26 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:05:26 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:26 symfony [debug] {sfPropelLogger} prepare: SELECT type_operation.ID, type_operation.DESIGNATION FROM `type_operation`
+May 12 04:05:26 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:26 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:05:26 symfony [debug] {sfPropelLogger} 7
+May 12 04:05:26 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:05:26 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:05:26 symfony [err] {RuntimeException} Class "TypeOperation" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 04:05:26 symfony [err] {RuntimeException} 3
+May 12 04:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:06:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:06:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:06:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:06:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:06:21 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:06:21 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:06:21 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:06:21 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:06:21 symfony [debug] {sfPropelLogger} 7
+May 12 04:06:21 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:06:21 symfony [debug] {sfPropelLogger} 7
+May 12 04:06:21 symfony [debug] {sfPropelLogger} prepare: SELECT type_operation.ID, type_operation.DESIGNATION FROM `type_operation`
+May 12 04:06:21 symfony [debug] {sfPropelLogger} 7
+May 12 04:06:21 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:06:21 symfony [debug] {sfPropelLogger} 7
+May 12 04:06:21 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:06:21 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:06:21 symfony [err] {RuntimeException} Class "Employe" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+May 12 04:06:21 symfony [err] {RuntimeException} 3
+May 12 04:07:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:07:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:07:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:07:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:07:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:07:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:07:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:07:54 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:07:54 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:07:54 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:07:54 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:07:54 symfony [debug] {sfPropelLogger} 7
+May 12 04:07:54 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:07:54 symfony [debug] {sfPropelLogger} 7
+May 12 04:07:54 symfony [debug] {sfPropelLogger} prepare: SELECT type_operation.ID, type_operation.DESIGNATION FROM `type_operation`
+May 12 04:07:54 symfony [debug] {sfPropelLogger} 7
+May 12 04:07:54 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:07:54 symfony [debug] {sfPropelLogger} 7
+May 12 04:07:54 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:07:54 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:07:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:07:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:07:54 symfony [info] {sfWebDebugLogger} Configuration 2.63 ms (9)
+May 12 04:07:54 symfony [info] {sfWebDebugLogger} Action "intervention/new" 8.26 ms (1)
+May 12 04:07:54 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/new" 40.27 ms (1)
+May 12 04:07:54 symfony [info] {sfWebDebugLogger} Partial "intervention/_form" 32.91 ms (1)
+May 12 04:07:54 symfony [info] {sfWebResponse} Send content (29875 o)
+May 12 04:08:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /intervention with parameters array (  'module' => 'intervention',  'action' => 'index',)
+May 12 04:08:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:08:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:08:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:08:07 symfony [info] {interventionActions} Call "interventionActions->executeIndex()"
+May 12 04:08:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:08:07 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:07 symfony [debug] {sfPropelLogger} prepare: SELECT intervention.ID, intervention.VEHICULE_ID, intervention.TYPE_OPERATION_ID, intervention.DATE_INTERVENTION, intervention.EMPLOYE_ID FROM `intervention`
+May 12 04:08:07 symfony [debug] {sfPropelLogger} 7
+May 12 04:08:07 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/indexSuccess.php"
+May 12 04:08:07 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:08:07 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:08:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:08:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:08:07 symfony [info] {sfWebDebugLogger} Configuration 2.66 ms (9)
+May 12 04:08:07 symfony [info] {sfWebDebugLogger} Action "intervention/index" 5.59 ms (1)
+May 12 04:08:07 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/index" 6.19 ms (1)
+May 12 04:08:07 symfony [info] {sfWebResponse} Send content (25628 o)
+May 12 04:08:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:08:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:08:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:08:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /employe with parameters array (  'module' => 'employe',  'action' => 'index',)
+May 12 04:08:12 symfony [info] {sfFrontWebController} Action "employe/index" does not exist
+May 12 04:08:12 symfony [err] {sfError404Exception} Action "employe/index" does not exist.
+May 12 04:08:12 symfony [err] {sfError404Exception} 3
+May 12 04:12:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:12:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:12:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:12:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:12:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:12:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:12:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:12:37 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:12:37 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:12:37 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:12:37 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:12:37 symfony [debug] {sfPropelLogger} 7
+May 12 04:12:37 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:12:37 symfony [debug] {sfPropelLogger} 7
+May 12 04:12:37 symfony [err] {InvalidArgumentException} Widget "type_operation_id" does not exist.
+May 12 04:12:37 symfony [err] {InvalidArgumentException} 3
+May 12 04:13:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:13:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:13:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:13:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:13:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:13:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:13:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:13:37 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:13:37 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:13:37 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:13:37 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:13:37 symfony [debug] {sfPropelLogger} 7
+May 12 04:13:37 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:13:37 symfony [debug] {sfPropelLogger} 7
+May 12 04:13:37 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:13:37 symfony [debug] {sfPropelLogger} 7
+May 12 04:13:37 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:13:37 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:13:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:13:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:13:37 symfony [info] {sfWebDebugLogger} Configuration 198.45 ms (9)
+May 12 04:13:37 symfony [info] {sfWebDebugLogger} Action "intervention/new" 8.18 ms (1)
+May 12 04:13:37 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/new" 72.10 ms (1)
+May 12 04:13:37 symfony [info] {sfWebDebugLogger} Partial "intervention/_form" 55.22 ms (1)
+May 12 04:13:37 symfony [info] {sfWebResponse} Send content (29950 o)
+May 12 04:21:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:21:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:21:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:21:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+May 12 04:21:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:21:45 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:21:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:21:45 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+May 12 04:21:45 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/main/templates/indexSuccess.php"
+May 12 04:21:45 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:45 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:21:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:21:45 symfony [info] {sfWebDebugLogger} Configuration 19.53 ms (10)
+May 12 04:21:45 symfony [info] {sfWebDebugLogger} Action "main/index" 0.30 ms (1)
+May 12 04:21:45 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 14.58 ms (1)
+May 12 04:21:45 symfony [info] {sfWebResponse} Send content (24817 o)
+May 12 04:21:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:21:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:21:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:21:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /intervention with parameters array (  'module' => 'intervention',  'action' => 'index',)
+May 12 04:21:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:21:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:21:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:21:51 symfony [info] {interventionActions} Call "interventionActions->executeIndex()"
+May 12 04:21:51 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:21:51 symfony [debug] {sfPropelLogger} 7
+May 12 04:21:51 symfony [debug] {sfPropelLogger} prepare: SELECT intervention.ID, intervention.VEHICULE_ID, intervention.TYPE_OPERATION, intervention.DATE_INTERVENTION, intervention.EMPLOYE_ID FROM `intervention`
+May 12 04:21:51 symfony [debug] {sfPropelLogger} 7
+May 12 04:21:51 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/indexSuccess.php"
+May 12 04:21:51 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:51 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:21:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:21:51 symfony [info] {sfWebDebugLogger} Configuration 2.64 ms (9)
+May 12 04:21:51 symfony [info] {sfWebDebugLogger} Action "intervention/index" 5.24 ms (1)
+May 12 04:21:51 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/index" 6.10 ms (1)
+May 12 04:21:51 symfony [info] {sfWebResponse} Send content (26010 o)
+May 12 04:21:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:21:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:21:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:21:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/new with parameters array (  'module' => 'intervention',  'action' => 'new',)
+May 12 04:21:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:21:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:21:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:21:53 symfony [info] {interventionActions} Call "interventionActions->executeNew()"
+May 12 04:21:53 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/newSuccess.php"
+May 12 04:21:53 symfony [info] {sfPartialView} Render "/var/www/develop/garage.inc/apps/frontend/modules/intervention/templates/_form.php"
+May 12 04:21:53 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:21:53 symfony [debug] {sfPropelLogger} 7
+May 12 04:21:53 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule`
+May 12 04:21:53 symfony [debug] {sfPropelLogger} 7
+May 12 04:21:53 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe`
+May 12 04:21:53 symfony [debug] {sfPropelLogger} 7
+May 12 04:21:53 symfony [info] {sfPHPView} Decorate content with "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:53 symfony [info] {sfPHPView} Render "/var/www/develop/garage.inc/apps/frontend/templates/layout.php"
+May 12 04:21:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 04:21:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 04:21:53 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+May 12 04:21:53 symfony [info] {sfWebDebugLogger} Action "intervention/new" 7.02 ms (1)
+May 12 04:21:53 symfony [info] {sfWebDebugLogger} View "Success" for "intervention/new" 26.72 ms (1)
+May 12 04:21:53 symfony [info] {sfWebDebugLogger} Partial "intervention/_form" 20.25 ms (1)
+May 12 04:21:53 symfony [info] {sfWebResponse} Send content (30230 o)
+May 12 04:22:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 04:22:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 04:22:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 04:22:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /intervention/create with parameters array (  'module' => 'intervention',  'action' => 'create',)
+May 12 04:22:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 04:22:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 04:22:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 04:22:36 symfony [info] {interventionActions} Call "interventionActions->executeCreate()"
+May 12 04:22:36 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+May 12 04:22:36 symfony [debug] {sfPropelLogger} 7
+May 12 04:22:36 symfony [debug] {sfPropelLogger} prepare: SELECT vehicule.ID, vehicule.IMMATRICULE, vehicule.MODELE_ID, vehicule.PROPRIETAIRE_ID FROM `vehicule` WHERE vehicule.ID=:p1 LIMIT 1
+May 12 04:22:36 symfony [debug] {sfPropelLogger} 7
+May 12 04:22:36 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 04:22:36 symfony [debug] {sfPropelLogger} 7
+May 12 04:22:36 symfony [debug] {sfPropelLogger} prepare: SELECT employe.ID, employe.NOM, employe.PRENOM FROM `employe` WHERE employe.ID=:p1 LIMIT 1
+May 12 04:22:36 symfony [debug] {sfPropelLogger} 7
+May 12 04:22:36 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+May 12 04:22:36 symfony [debug] {sfPropelLogger} 7
